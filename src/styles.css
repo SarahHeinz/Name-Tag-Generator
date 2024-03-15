@@ -1,0 +1,57 @@
+.App {
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  background-color: #fabec3;
+}
+
+/* Add Name Input */
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+  font-family: "Patrick Hand", cursive;
+}
+input[type="text"] {
+  width: 200px;
+}
+
+.name-tag {
+  background-color: #1abb9c;
+  padding: 10px 0 20px;
+  border-radius: 20px;
+  width: 350px;
+  margin: 20px 10px;
+  display: inline-block;
+  position: relative;
+}
+.title {
+  color: #f7f7f7;
+  margin: 0;
+  font-size: 40px;
+  font-family: "Neucha";
+}
+.subtitle {
+  color: #f7f7f7;
+  margin: 0;
+  font-family: "Neucha";
+}
+.name {
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  font-size: 60px;
+  height: 90px;
+  font-family: "Patrick Hand", bold;
+  text-transform: uppercase;
+  color: #5f1854;
+}
+.name-tag__delete {
+  position: absolute;
+  padding: 5px 8px;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.name-tag__delete:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
